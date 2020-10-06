@@ -1,16 +1,16 @@
 # CFDI
 Librería java para la consulta de un estatus CFDI ante el SAT
 
-##Cómo añadir la librería
+## Cómo añadir la librería
 
-###NetBeans
+### NetBeans
 
 - Descarga el .jar
 - Añádelo a tu proyecto dando clic derecho el la carpeta de librerías del proyecto y selecciona la opción Añadir JAR/FOLDER
 
 ![Cómo añadir la librería a NetBeans](https://github.com/AdolfoA98/CFDI/blob/main/screenshots/how%20to_netbeans.png)
 
-##Cómo se utiliza
+## Cómo se utiliza
 
 Esta librería está hecha para conocer el estado de las facturas ante el SAT utilizando la API proporcionada por la misma institución.
 
@@ -30,7 +30,7 @@ consulta.consultaCFDI("emisor", "receptor", "importe", "CFDI");
                 - ExpresionErronea - String
                 - Vigente  - Boolean
 
-##Ejemplo de implementación
+## Ejemplo de implementación
 
 ```java
 package pruebacfdi;
@@ -50,7 +50,7 @@ public class PruebaCFDI {
 }
 ```
 
-##Referencias
+## Referencias
 
 - [Developers-sw](https://developers.sw.com.mx/knowledge-base/servicio-publico-de-consulta-estatus-cfdi-sat/)
 - [Tar.mx](https://tar.mx/archivo/2018/validar-folio-fiscal-cfdi-con-php-directo-del-sat-2018.html)
